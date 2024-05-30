@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Lasse AS IDE",
+  "version": "1.0",
+  "host_permissions": [
+    "https://script.google.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://script.google.com/*"],
+      "css": ["styles.css"]
+    }
+  ]
+}
